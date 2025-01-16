@@ -1,0 +1,190 @@
+[gd_scene load_steps=4 format=3 uid="uid://cbpg6wo3yluus"]
+
+[ext_resource type="PackedScene" uid="uid://c1euvs5rm7pab" path="res://skel_bone_2025.glb" id="1_a202f"]
+[ext_resource type="Script" uid="uid://dq7jh8yu1fg6n" path="res://node_3d.gd" id="1_noarx"]
+
+[sub_resource type="Curve" id="Curve_a202f"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.145596), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_noarx")
+
+[node name="CheckBox" type="CheckBox" parent="."]
+offset_right = 24.0
+offset_bottom = 24.0
+text = "Use SpringboneSimulator3D.reset()"
+
+[node name="skel_bone_2025" parent="." instance=ExtResource("1_a202f")]
+
+[node name="Skeleton3D" parent="skel_bone_2025/Rig" index="2"]
+bones/2/rotation = Quaternion(0.0605259, 0, 0, 0.998167)
+bones/3/rotation = Quaternion(-0.0767336, 0, 0, 0.997052)
+bones/4/rotation = Quaternion(0.00980856, -4.81199e-18, -4.97094e-18, 0.999952)
+bones/5/rotation = Quaternion(0.17536, 2.71683e-17, 2.57935e-17, 0.984504)
+bones/6/rotation = Quaternion(-0.169019, -2.16596e-17, -2.16596e-17, 0.985613)
+bones/7/rotation = Quaternion(1, 2.11758e-22, -4.37114e-08, -1.15145e-07)
+bones/12/rotation = Quaternion(0.707107, -1.57009e-15, 0.707107, -9.48304e-08)
+bones/22/rotation = Quaternion(0.382683, 5.20499e-15, 0.92388, -5.13218e-08)
+bones/27/rotation = Quaternion(-0.590973, -0.382608, -0.387566, 0.595108)
+bones/28/rotation = Quaternion(0.00294791, 0.00250832, -0.201304, 0.979521)
+bones/29/rotation = Quaternion(-0.00206661, -0.00206641, -0.0139246, 0.999899)
+bones/30/rotation = Quaternion(0.00106678, 0.00106678, 0.00713866, 0.999973)
+bones/31/rotation = Quaternion(0.173666, 0.673666, -0.192162, 0.692162)
+bones/32/rotation = Quaternion(5.94882e-08, -1.75554e-06, -1.00513e-06, 1)
+bones/33/rotation = Quaternion(-8.0523e-07, 5.58514e-06, 3.24566e-06, 1)
+bones/34/rotation = Quaternion(-1.16416e-10, 1.16415e-10, -1.80326e-15, 1)
+bones/35/rotation = Quaternion(4.05529e-16, 1.64959e-23, -1.06867e-10, 1)
+bones/36/rotation = Quaternion(0, 0, -1.79644e-15, 1)
+bones/37/rotation = Quaternion(-1.16415e-10, 1.16415e-10, -1.06867e-10, 1)
+bones/38/rotation = Quaternion(3.46945e-18, 3.46945e-18, -1.79296e-15, 1)
+bones/39/rotation = Quaternion(2.06795e-25, 4.15345e-42, -1.79644e-15, 1)
+bones/40/rotation = Quaternion(-1.16416e-10, 1.16415e-10, -1.80326e-15, 1)
+bones/41/rotation = Quaternion(3.9859e-16, 1.64959e-23, -1.06867e-10, 1)
+bones/42/rotation = Quaternion(0, 0, -1.79644e-15, 1)
+bones/43/rotation = Quaternion(-1.16416e-10, 1.16415e-10, -1.80326e-15, 1)
+bones/44/rotation = Quaternion(1.15493e-15, 4.95022e-23, -1.06867e-10, 1)
+bones/45/rotation = Quaternion(1.38778e-17, 1.92593e-34, -1.79297e-15, 1)
+bones/47/rotation = Quaternion(-0.590973, 0.382608, 0.387566, 0.595108)
+bones/48/rotation = Quaternion(0.00294791, -0.00250832, 0.201304, 0.979521)
+bones/49/rotation = Quaternion(-0.00206661, 0.00206641, 0.0139246, 0.999899)
+bones/50/rotation = Quaternion(0.00106678, -0.00106678, -0.00713866, 0.999973)
+bones/51/rotation = Quaternion(0.173666, -0.673666, 0.192162, 0.692162)
+bones/52/rotation = Quaternion(5.94882e-08, 1.75554e-06, 1.00513e-06, 1)
+bones/53/rotation = Quaternion(-8.0523e-07, -5.58514e-06, -3.24566e-06, 1)
+bones/54/rotation = Quaternion(-1.16416e-10, -1.16415e-10, 1.80326e-15, 1)
+bones/55/rotation = Quaternion(4.05529e-16, -1.64959e-23, 1.06867e-10, 1)
+bones/56/rotation = Quaternion(0, 0, 1.79644e-15, 1)
+bones/57/position = Vector3(-3.65832e-12, 0.06875, -1.53372e-10)
+bones/57/rotation = Quaternion(-1.16415e-10, -1.16415e-10, 1.06867e-10, 1)
+bones/58/rotation = Quaternion(3.46945e-18, -3.46945e-18, 1.79296e-15, 1)
+bones/59/rotation = Quaternion(2.06795e-25, -4.15345e-42, 1.79644e-15, 1)
+bones/60/position = Vector3(0.0175, 0.0637, -2.16094e-09)
+bones/60/rotation = Quaternion(-1.16416e-10, -1.16415e-10, 1.80326e-15, 1)
+bones/61/rotation = Quaternion(3.9859e-16, -1.64959e-23, 1.06867e-10, 1)
+bones/62/rotation = Quaternion(0, 0, 1.79644e-15, 1)
+bones/63/position = Vector3(0.035, 0.05625, -4.16795e-09)
+bones/63/rotation = Quaternion(-1.16416e-10, -1.16415e-10, 1.80326e-15, 1)
+bones/64/rotation = Quaternion(1.15493e-15, -4.95022e-23, 1.06867e-10, 1)
+bones/65/rotation = Quaternion(1.38778e-17, -1.92593e-34, 1.79297e-15, 1)
+bones/67/rotation = Quaternion(0.999641, 0, 0, 0.0268024)
+bones/68/rotation = Quaternion(0.0596432, 0, 0, 0.99822)
+bones/69/rotation = Quaternion(-0.579995, 0, 0, 0.81462)
+bones/70/rotation = Quaternion(8.66476e-09, 0.980156, -0.198227, -4.2844e-08)
+bones/71/rotation = Quaternion(0.999641, 0, 0, 0.0268024)
+bones/72/rotation = Quaternion(0.0596432, 0, 0, 0.99822)
+bones/73/rotation = Quaternion(-0.579995, 0, 0, 0.81462)
+bones/74/rotation = Quaternion(8.66476e-09, 0.980156, -0.198227, -4.2844e-08)
+
+[node name="SpringBoneSimulator3D" type="SpringBoneSimulator3D" parent="skel_bone_2025/Rig/Skeleton3D" index="5"]
+setting_count = 4
+settings/0/root_bone_name = "ball.001"
+settings/0/root_bone = 7
+settings/0/end_bone_name = "ball.005"
+settings/0/end_bone = 11
+settings/0/extend_end_bone = true
+settings/0/end_bone/direction = 6
+settings/0/end_bone/length = 0.275
+settings/0/end_bone/tip_radius = 0.02
+settings/0/center_bone_name = ""
+settings/0/center_bone = -1
+settings/0/individual_config = false
+settings/0/rotation_axis = 3
+settings/0/radius/value = 0.02
+settings/0/radius/damping_curve = SubResource("Curve_a202f")
+settings/0/stiffness/value = 1.0
+settings/0/stiffness/damping_curve = null
+settings/0/drag/value = 0.4
+settings/0/drag/damping_curve = null
+settings/0/gravity/value = 0.0
+settings/0/gravity/damping_curve = null
+settings/0/gravity/direction = Vector3(0, -1, 0)
+settings/0/enable_all_child_collisions = true
+settings/0/exclude_collision_count = 0
+settings/1/root_bone_name = "hinge.A.001"
+settings/1/root_bone = 12
+settings/1/end_bone_name = "hinge.A.005"
+settings/1/end_bone = 16
+settings/1/extend_end_bone = true
+settings/1/end_bone/direction = 6
+settings/1/end_bone/length = 0.25
+settings/1/end_bone/tip_radius = 0.02
+settings/1/center_bone_name = ""
+settings/1/center_bone = -1
+settings/1/individual_config = false
+settings/1/rotation_axis = 0
+settings/1/radius/value = 0.02
+settings/1/radius/damping_curve = null
+settings/1/stiffness/value = 1.0
+settings/1/stiffness/damping_curve = null
+settings/1/drag/value = 0.4
+settings/1/drag/damping_curve = null
+settings/1/gravity/value = 0.0
+settings/1/gravity/damping_curve = null
+settings/1/gravity/direction = Vector3(0, -1, 0)
+settings/1/enable_all_child_collisions = false
+settings/1/collision_count = 0
+settings/2/root_bone_name = "hinge.B.001"
+settings/2/root_bone = 17
+settings/2/end_bone_name = "hinge.B.005"
+settings/2/end_bone = 21
+settings/2/extend_end_bone = true
+settings/2/end_bone/direction = 6
+settings/2/end_bone/length = 0.25
+settings/2/end_bone/tip_radius = 0.02
+settings/2/center_bone_name = ""
+settings/2/center_bone = -1
+settings/2/individual_config = false
+settings/2/rotation_axis = 0
+settings/2/radius/value = 0.02
+settings/2/radius/damping_curve = null
+settings/2/stiffness/value = 1.0
+settings/2/stiffness/damping_curve = null
+settings/2/drag/value = 0.4
+settings/2/drag/damping_curve = null
+settings/2/gravity/value = 0.0
+settings/2/gravity/damping_curve = null
+settings/2/gravity/direction = Vector3(0, -1, 0)
+settings/2/enable_all_child_collisions = false
+settings/2/collision_count = 0
+settings/3/root_bone_name = "hinge.C.001"
+settings/3/root_bone = 22
+settings/3/end_bone_name = "hinge.C.005"
+settings/3/end_bone = 26
+settings/3/extend_end_bone = true
+settings/3/end_bone/direction = 6
+settings/3/end_bone/length = 0.25
+settings/3/end_bone/tip_radius = 0.02
+settings/3/center_bone_name = ""
+settings/3/center_bone = -1
+settings/3/individual_config = false
+settings/3/rotation_axis = 0
+settings/3/radius/value = 0.02
+settings/3/radius/damping_curve = null
+settings/3/stiffness/value = 1.0
+settings/3/stiffness/damping_curve = null
+settings/3/drag/value = 0.4
+settings/3/drag/damping_curve = null
+settings/3/gravity/value = 0.0
+settings/3/gravity/damping_curve = null
+settings/3/gravity/direction = Vector3(0, -1, 0)
+settings/3/enable_all_child_collisions = false
+settings/3/collision_count = 0
+
+[node name="SpringBoneCollisionCapsule3D" type="SpringBoneCollisionCapsule3D" parent="skel_bone_2025/Rig/Skeleton3D/SpringBoneSimulator3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.652031, 1.01398, 0)
+radius = 0.252
+height = 1.465
+inside = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.630784, -0.330411, 0.702097, -1.49012e-08, 0.904812, 0.425811, -0.775958, -0.268595, 0.570741, 1.68629, 2.52415, 3.28172)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+size = Vector3(100, 1, 100)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.564391, 0.510535, -0.648704, 1.77636e-15, 0.785824, 0.61845, 0.825508, -0.349047, 0.443512, 0, 0, 0)
+
+[editable path="skel_bone_2025"]
